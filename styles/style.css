@@ -1,0 +1,46 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: salmon;
+}
+
+.container {
+    width: 40%;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.logo {
+    width: 40%;
+}
+
+input,
+select {
+    display: block;
+    width: 75%;
+    border: 1px solid #000;
+    border-radius: 8px;
+    margin: 15px auto;
+    padding: 5px;
+    text-align: center;
+}
+
+.paleta {
+    width: 60px;
+    display: none;
+}
+
+.button {
+    cursor: pointer;
+    width: 30%;
+    border-radius: 30px;
+    padding: 15px;
+    border: none;
+    background-color: salmon;
+    color: #fff;
+    display: block;
+    margin: 20px auto;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heladería Geek</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <main class="container">
+        <img class="logo" src="./images/logo.png" alt="">
+
+        <form action="" id="formulario">
+            <input id="nombre" type="text" placeholder="nombre"  required>
+            <input id="apellido" type="text" placeholder="apellido" required>
+            <input id="direccion" type="text" placeholder="dirección" required>
+            <select id="paleta" name="">
+                <option value="0" selected disabled>Paleta</option>
+                <option value="1">Sandía</option>
+                <option value="2">Mango</option>
+                <option value="3">Fresa</option>
+                <option value="4">Arandanos</option>
+            </select>
+            <img alt="" class="paleta">
+            <button class="button">Enviar</button>
+        </form>
+    </main>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>
